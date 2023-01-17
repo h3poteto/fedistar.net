@@ -15,7 +15,7 @@ type FormValue = {
   message: string
 }
 
-const Inquiry = () => {
+export default function Inquiry() {
   const [formValue, setFormValue] = useState<FormValue>({
     email: '',
     message: ''
@@ -127,5 +127,3 @@ const Inquiry = () => {
     </>
   )
 }
-
-export default Inquiry
