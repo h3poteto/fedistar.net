@@ -20,6 +20,8 @@ export default function Inquiry() {
     email: '',
     message: ''
   })
+  const [loading, setLoading] = useState(false)
+
   const formRef = useRef<any>()
   const toast = useToaster()
 
@@ -29,6 +31,9 @@ export default function Inquiry() {
   })
 
   const handleSubmit = async () => {
+    if (loading) {
+      return
+    }
     if (formRef === undefined || formRef.current === undefined) {
       return
     }
@@ -36,6 +41,7 @@ export default function Inquiry() {
       return
     }
 
+    setLoading(true)
     try {
       const options = {
         method: 'POST',
@@ -73,6 +79,8 @@ export default function Inquiry() {
         </Message>,
         { placement: 'topCenter' }
       )
+    } finally {
+      setLoading(false)
     }
   }
 
@@ -110,7 +118,7 @@ export default function Inquiry() {
                 </Form.Group>
                 <Form.Group>
                   <ButtonToolbar>
-                    <Button appearance="primary" onClick={handleSubmit}>
+                    <Button appearance="primary" onClick={handleSubmit} loading={loading}>
                       Submit
                     </Button>
                     <Button appearance="default" onClick={clear}>
