@@ -12,22 +12,25 @@ const footer = () => {
       >
         <FlexboxGrid justify="center" align="top" style={{ height: 'auto', paddingTop: 24, paddingBottom: 12 }}>
           <FlexboxGrid.Item style={{ textAlign: 'left', width: '180px' }}>
-            <h5 style={{ paddingBottom: 12 }}>Fedistar</h5>
+            <h5>Fedistar</h5>
+            <p style={{ lineHeight: '24px' }}>
+              <Link href="/">Fedistar</Link>
+            </p>
             <p style={{ lineHeight: '24px' }}>
               <a href="https://github.com/h3poteto/fedistar" target="_blank" rel="noopener noreferrer">
                 Source Code
               </a>
             </p>
             <p style={{ lineHeight: '24px' }}>
-              <Link href="/privacy_policy">Privacy Policy</Link>{' '}
+              <Link href="/privacy_policy">Privacy Policy</Link>
             </p>
 
             <p style={{ lineHeight: '24px' }}>
-              <Link href="/inquiry">Contact Us</Link>{' '}
+              <Link href="/inquiry">Contact Us</Link>
             </p>
           </FlexboxGrid.Item>
           <FlexboxGrid.Item style={{ textAlign: 'left', width: '180px' }}>
-            <h5 style={{ paddingBottom: 12 }}>Whalebird</h5>
+            <h5>Whalebird</h5>
             <p style={{ lineHeight: '24px' }}>
               <a href="https://whalebird.social" target="_blank" rel="noopener noreferrer">
                 Whalebird
@@ -50,7 +53,7 @@ const footer = () => {
             </p>
           </FlexboxGrid.Item>
           <FlexboxGrid.Item style={{ textAlign: 'left', width: '180px' }}>
-            <h5 style={{ paddingBottom: 12 }}>About Us</h5>
+            <h5>About Us</h5>
             <p style={{ lineHeight: '24px' }}>
               <a href="https://pleroma.io/users/h3poteto" target="_blank" rel="noopener noreferrer">
                 Pleroma
