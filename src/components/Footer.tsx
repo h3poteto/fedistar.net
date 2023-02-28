@@ -68,7 +68,7 @@ const footer = () => {
         </FlexboxGrid>
         <FlexboxGrid justify="center" align="middle" style={{ height: 48 }}>
           <FlexboxGrid.Item style={{ textAlign: 'center' }}>
-            <p>&copy; 2023 h3poteto</p>
+            <p>&copy; 2023 Akira Fukushima</p>
           </FlexboxGrid.Item>
         </FlexboxGrid>
       </Footer>
