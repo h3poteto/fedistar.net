@@ -58,13 +58,8 @@ const footer = () => {
           <FlexboxGrid.Item style={{ textAlign: 'left', width: '180px' }}>
             <h5>About Us</h5>
             <p style={{ lineHeight: '24px' }}>
-              <a href="https://pleroma.io/users/h3poteto" target="_blank" rel="noopener noreferrer">
+              <a href="https://pleroma.io/users/fedistar" target="_blank" rel="noopener noreferrer">
                 Pleroma
-              </a>
-            </p>
-            <p style={{ lineHeight: '24px' }}>
-              <a href="https://fedibird.com/@h3poteto" target="_blank" rel="noopener noreferrer">
-                Mastodon
               </a>
             </p>
           </FlexboxGrid.Item>

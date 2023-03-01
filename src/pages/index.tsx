@@ -37,7 +37,7 @@ export default function Home() {
             </div>
             <div style={{ display: 'flex', marginTop: '2rem' }}>
               <Link href="/downloads" rel="noopener noreferrer" style={{ display: 'block', margin: '0 auto' }}>
-                <Button size="lg" color="violet" appearance="primary" href="/downloads">
+                <Button size="lg" color="violet" appearance="primary">
                   <div style={{ display: 'flex', alignItems: 'center' }}>
                     <Icon as={BsCloudDownload} style={{ fontSize: '3rem', marginRight: '16px' }} />
                     <div style={{ textAlign: 'left' }}>
