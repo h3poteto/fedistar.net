@@ -17,6 +17,9 @@ const footer = () => {
               <Link href="/">Fedistar</Link>
             </p>
             <p style={{ lineHeight: '24px' }}>
+              <Link href="/downloads">Downloads</Link>
+            </p>
+            <p style={{ lineHeight: '24px' }}>
               <a href="https://github.com/h3poteto/fedistar" target="_blank" rel="noopener noreferrer">
                 Source Code
               </a>
@@ -38,7 +41,7 @@ const footer = () => {
             </p>
             <p style={{ lineHeight: '24px' }}>
               <a href="https://whalebird.social/desktop/contents/downloads" target="_blank" rel="noopener noreferrer">
-                Download
+                Downloads
               </a>
             </p>
             <p style={{ lineHeight: '24px' }}>
@@ -68,7 +71,12 @@ const footer = () => {
         </FlexboxGrid>
         <FlexboxGrid justify="center" align="middle" style={{ height: 48 }}>
           <FlexboxGrid.Item style={{ textAlign: 'center' }}>
-            <p>&copy; 2023 Akira Fukushima</p>
+            <p>
+              &copy; 2023{' '}
+              <a href="https://pleroma.io/users/h3poteto" target="_blank" rel="noopener noreferrer">
+                Akira Fukushima
+              </a>
+            </p>
           </FlexboxGrid.Item>
         </FlexboxGrid>
       </Footer>
