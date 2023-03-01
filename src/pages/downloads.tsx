@@ -8,10 +8,16 @@ import Link from 'next/link'
 import WindowsIcon from '@rsuite/icons/legacy/Windows'
 import AppleIcon from '@rsuite/icons/legacy/Apple'
 import LinuxIcon from '@rsuite/icons/legacy/Linux'
+import { Icon } from '@rsuite/icons'
+import { BsClipboard } from 'react-icons/bs'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Downloads() {
+  const copyAUR = (text: string) => {
+    navigator.clipboard.writeText(text)
+  }
+
   return (
     <>
       <Head>
@@ -52,6 +58,23 @@ export default function Downloads() {
                 </div>
                 <h2 style={{ borderBottom: '1px solid var(--rs-divider-border)' }}>Linux</h2>
                 <div style={{ margin: '8px 0' }}>
+                  <div
+                    style={{
+                      backgroundColor: 'var(--rs-gray-700)',
+                      width: '240px',
+                      padding: '8px 0 8px 12px',
+                      borderRadius: '4px',
+                      margin: '8px 0',
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center'
+                    }}
+                  >
+                    <span>$ yay -S fedistar-bin</span>
+                    <Button appearance="link" onClick={() => copyAUR('yay -S fedistar-bin')}>
+                      <Icon as={BsClipboard} />
+                    </Button>
+                  </div>
                   <Button
                     appearance="primary"
                     href="https://github.com/h3poteto/fedistar/releases/download/v0.1.0/fedistar_0.1.0_amd64.AppImage"
