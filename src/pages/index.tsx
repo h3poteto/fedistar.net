@@ -7,6 +7,7 @@ import { BsCloudDownload, BsCheck2Circle } from 'react-icons/bs'
 
 import Footer from '@/components/Footer'
 import styles from '@/styles/Home.module.css'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,9 +16,6 @@ export default function Home() {
     <>
       <Head>
         <title>Fedistar</title>
-        <meta name="description" content="Multi-column Mastodon and Pleroma client for desktop" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <Container className={inter.className}>
@@ -38,13 +36,8 @@ export default function Home() {
               <Image src="/basic_timeline.png" alt="Basic screenshot" fill style={{ objectFit: 'contain' }} />
             </div>
             <div style={{ display: 'flex', marginTop: '2rem' }}>
-              <a
-                href="https://github.com/h3poteto/fedistar/releases"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ display: 'block', margin: '0 auto' }}
-              >
-                <Button size="lg" color="violet" appearance="primary">
+              <Link href="/downloads" rel="noopener noreferrer" style={{ display: 'block', margin: '0 auto' }}>
+                <Button size="lg" color="violet" appearance="primary" href="/downloads">
                   <div style={{ display: 'flex', alignItems: 'center' }}>
                     <Icon as={BsCloudDownload} style={{ fontSize: '3rem', marginRight: '16px' }} />
                     <div style={{ textAlign: 'left' }}>
@@ -57,11 +50,11 @@ export default function Home() {
                       >
                         Download
                       </p>
-                      <p style={{ fontWeight: 200, marginTop: 0 }}>Alpha version is available</p>
+                      <p style={{ fontWeight: 200, marginTop: 0 }}>1.0.0 is available</p>
                     </div>
                   </div>
                 </Button>
-              </a>
+              </Link>
             </div>
             <div style={{ paddingTop: '8rem' }}>
               <FlexboxGrid justify="center">
