@@ -37,22 +37,14 @@ export default function Home() {
             </div>
             <div style={{ display: 'flex', marginTop: '2rem' }}>
               <Link href="/downloads" rel="noopener noreferrer" style={{ display: 'block', margin: '0 auto' }}>
-                <Button size="lg" color="violet" appearance="primary">
-                  <div style={{ display: 'flex', alignItems: 'center' }}>
-                    <Icon as={BsCloudDownload} style={{ fontSize: '3rem', marginRight: '16px' }} />
-                    <div style={{ textAlign: 'left' }}>
-                      <p
-                        style={{
-                          fontSize: '2rem',
-                          lineHeight: '3rem',
-                          fontWeight: 300
-                        }}
-                      >
-                        Download
-                      </p>
-                      <p style={{ fontWeight: 200, marginTop: 0 }}>1.0.0 is available</p>
-                    </div>
-                  </div>
+                <Button
+                  size="lg"
+                  color="violet"
+                  appearance="primary"
+                  startIcon={<Icon as={BsCloudDownload} />}
+                  style={{ fontSize: '2rem', lineHeight: '3.5rem', fontWeight: '300' }}
+                >
+                  Download
                 </Button>
               </Link>
             </div>
