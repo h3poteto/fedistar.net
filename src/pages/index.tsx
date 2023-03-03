@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import { Inter } from 'next/font/google'
 import { Button, Container, Content, FlexboxGrid } from 'rsuite'
 import { Icon } from '@rsuite/icons'
 import { BsCloudDownload, BsCheck2Circle } from 'react-icons/bs'

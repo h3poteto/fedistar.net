@@ -10,7 +10,6 @@
     "typecheck": "tsc -p . --noEmit"
   },
   "dependencies": {
-    "@next/font": "13.2.3",
     "@octokit/rest": "^19.0.7",
     "@rsuite/icons": "^1.0.2",
     "@types/node": "18.14.5",
