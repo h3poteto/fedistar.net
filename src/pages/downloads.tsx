@@ -35,7 +35,7 @@ export default function Downloads() {
                   <h2 style={{ borderBottom: '1px solid var(--rs-divider-border)' }}>Windows</h2>
                   <Button
                     appearance="primary"
-                    href="https://github.com/h3poteto/fedistar/releases/download/v0.1.0/fedistar_0.1.0_x64_en-US.msi"
+                    href="https://github.com/h3poteto/fedistar/releases/download/v1.0.0/fedistar_1.0.0_x64_en-US.msi"
                     startIcon={<WindowsIcon />}
                   >
                     Fedistar-1.0.0-x64.msi
@@ -50,7 +50,7 @@ export default function Downloads() {
                 <div style={{ margin: '8px 0' }}>
                   <Button
                     appearance="primary"
-                    href="https://github.com/h3poteto/fedistar/releases/download/v0.1.0/fedistar_0.1.0_universal.dmg"
+                    href="https://github.com/h3poteto/fedistar/releases/download/v1.0.0/fedistar_1.0.0_universal.dmg"
                     startIcon={<AppleIcon />}
                   >
                     Fedistar-1.0.0-universal.dmg
@@ -77,7 +77,7 @@ export default function Downloads() {
                   </div>
                   <Button
                     appearance="primary"
-                    href="https://github.com/h3poteto/fedistar/releases/download/v0.1.0/fedistar_0.1.0_amd64.AppImage"
+                    href="https://github.com/h3poteto/fedistar/releases/download/v1.0.0/fedistar_1.0.0_amd64.AppImage"
                     startIcon={<LinuxIcon />}
                   >
                     Fedistar-1.0.0-amd64.AppImage
@@ -86,7 +86,7 @@ export default function Downloads() {
                 <div style={{ margin: '8px 0' }}>
                   <Button
                     appearance="primary"
-                    href="https://github.com/h3poteto/fedistar/releases/download/v0.1.0/fedistar_0.1.0_amd64.deb"
+                    href="https://github.com/h3poteto/fedistar/releases/download/v1.0.0/fedistar_1.0.0_amd64.deb"
                     startIcon={<LinuxIcon />}
                   >
                     Fedistar-1.0.0-amd64.deb
