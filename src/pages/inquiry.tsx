@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
+import { Inter } from 'next/font/google'
 import { Container, Content, Form, ButtonToolbar, Button, Input, Schema, useToaster, Message } from 'rsuite'
 import { forwardRef, useRef, useState } from 'react'
 
