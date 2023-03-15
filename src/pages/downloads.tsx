@@ -109,6 +109,11 @@ export default function Downloads(props: Props) {
                   <>
                     <h2 style={{ borderBottom: '1px solid var(--rs-divider-border)' }}>Linux</h2>
                     <div style={{ margin: '8px 0' }}>
+                      <a href="https://snapcraft.io/fedistar">
+                        <img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" />
+                      </a>
+                    </div>
+                    <div style={{ margin: '8px 0' }}>
                       <div
                         style={{
                           backgroundColor: 'var(--rs-gray-700)',
