@@ -78,6 +78,9 @@ export default function Home() {
                     <li>
                       <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Streaming update
                     </li>
+                    <li>
+                      <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Send reactions from another accounts
+                    </li>
                   </ul>
                 </FlexboxGrid.Item>
               </FlexboxGrid>
