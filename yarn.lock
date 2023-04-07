@@ -329,16 +329,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*":
-  version "18.0.31"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.31.tgz#a69ef8dd7bfa849734d258c793a8fe343a338205"
-  integrity sha512-EEG67of7DsvRDU6BLLI0p+k1GojDLz9+lZsnCpCRTa/lOokvyPBvp8S5x+A24hME3yyQuIipcP70KJ6H7Qupww==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@18.0.33":
+"@types/react@*", "@types/react@18.0.33":
   version "18.0.33"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.33.tgz#a1575160cb4376787c2f5fe0312302f824baa61e"
   integrity sha512-sHxzVxeanvQyQ1lr8NSHaj0kDzcNiGpILEVt69g9S31/7PfMvNCKLKcsHw4lYKjs3cGNJjXSP4mYzX43QlnjNA==
@@ -647,9 +638,9 @@ cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     which "^2.0.1"
 
 csstype@^3.0.2:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.1.tgz#841b532c45c758ee546a11d5bd7b7b473c8c30b9"
-  integrity sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
+  integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
 
 damerau-levenshtein@^1.0.8:
   version "1.0.8"
@@ -2123,10 +2114,10 @@ rimraf@^3.0.2:
   dependencies:
     glob "^7.1.3"
 
-rsuite-table@^5.10.1:
-  version "5.10.2"
-  resolved "https://registry.yarnpkg.com/rsuite-table/-/rsuite-table-5.10.2.tgz#36b1c1e53e71c6ed99860f091607bd7ff0f803e1"
-  integrity sha512-NHpN3+Ke2v3cfjvURCnPPLapBktZEs9Kmj+trjpSF8BfmFl7cGuAHfehRl+IhBbdKiTbd5ZnLBog/255WimXdA==
+rsuite-table@^5.10.3:
+  version "5.10.3"
+  resolved "https://registry.yarnpkg.com/rsuite-table/-/rsuite-table-5.10.3.tgz#044b27269de8f381ee890e63900c3f0d48fd4bb6"
+  integrity sha512-GNOnjDp2vBHcPliVxC1kpAlUaXRSIbk1qtPt9FYCAU9Wq5aRAIktJPDvE0qWitzaaGUuiV2a4amZj9ui6Sd4NA==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@juggle/resize-observer" "^3.3.1"
@@ -2137,9 +2128,9 @@ rsuite-table@^5.10.1:
     react-is "^17.0.2"
 
 rsuite@^5.28.0:
-  version "5.30.0"
-  resolved "https://registry.yarnpkg.com/rsuite/-/rsuite-5.30.0.tgz#140e726317ea6963df76709f793466cc776fba15"
-  integrity sha512-wSShEhkg9sffNJ62kmKbSdpj6y68Wq27QFM7ba7j7aul0mD5khUUaRwPyUD9kR8z2pDjLydl8btu9EWnGAvWAw==
+  version "5.31.0"
+  resolved "https://registry.yarnpkg.com/rsuite/-/rsuite-5.31.0.tgz#cf2e2a83ff4d4ab29eb62a04278c7924e6e5da2a"
+  integrity sha512-A3/zEFKaUPxgi6otFh12URLYi7jMPjL5frzsTar8pmWtGbuL+SuKWkyE9vTW4D9PqPb9WiVMbJ/ZsW7V7Ld/1A==
   dependencies:
     "@babel/runtime" "^7.20.1"
     "@juggle/resize-observer" "^3.4.0"
@@ -2154,7 +2145,7 @@ rsuite@^5.28.0:
     lodash "^4.17.11"
     prop-types "^15.8.1"
     react-window "^1.8.8"
-    rsuite-table "^5.10.1"
+    rsuite-table "^5.10.3"
     schema-typed "^2.1.2"
 
 run-parallel@^1.1.9:
