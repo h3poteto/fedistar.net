@@ -321,9 +321,9 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/lodash@^4.14.184":
-  version "4.14.192"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.192.tgz#5790406361a2852d332d41635d927f1600811285"
-  integrity sha512-km+Vyn3BYm5ytMO13k9KTp27O75rbQ0NFw+U//g+PX7VZyjCioXaRFisqSIJRECljcTv73G3i6BpglNGHgUQ5A==
+  version "4.14.194"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.194.tgz#b71eb6f7a0ff11bff59fc987134a093029258a76"
+  integrity sha512-r22s9tAS7imvBt2lyHC9B8AGwWnXaYb1tY09oyLkXDs4vArpYJzw09nj8MLx5VfciBPGIb+ZwG0ssYnEPJxn/g==
 
 "@types/node@18.15.11":
   version "18.15.11"
@@ -349,16 +349,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*":
-  version "18.0.33"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.33.tgz#a1575160cb4376787c2f5fe0312302f824baa61e"
-  integrity sha512-sHxzVxeanvQyQ1lr8NSHaj0kDzcNiGpILEVt69g9S31/7PfMvNCKLKcsHw4lYKjs3cGNJjXSP4mYzX43QlnjNA==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@18.0.35":
+"@types/react@*", "@types/react@18.0.35":
   version "18.0.35"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.35.tgz#192061cb1044fe01f2d3a94272cd35dd50502741"
   integrity sha512-6Laome31HpetaIUGFWl1VQ3mdSImwxtFZ39rh059a1MNnKGqBpC88J6NJ8n/Is3Qx7CefDGLgf/KhN/sYCf7ag==
@@ -2153,9 +2144,9 @@ rsuite-table@^5.10.3:
     react-is "^17.0.2"
 
 rsuite@^5.28.0:
-  version "5.31.0"
-  resolved "https://registry.yarnpkg.com/rsuite/-/rsuite-5.31.0.tgz#cf2e2a83ff4d4ab29eb62a04278c7924e6e5da2a"
-  integrity sha512-A3/zEFKaUPxgi6otFh12URLYi7jMPjL5frzsTar8pmWtGbuL+SuKWkyE9vTW4D9PqPb9WiVMbJ/ZsW7V7Ld/1A==
+  version "5.31.1"
+  resolved "https://registry.yarnpkg.com/rsuite/-/rsuite-5.31.1.tgz#8eee8824b8743583b28f3565e10109132c1ad795"
+  integrity sha512-cGcqPIRycbTdHJQ23JV34wl8nP15SDpX7ZivtD/6E4Onld8l+jq/e1Z9FYN5T4WF8iP/QY5+KIgrruSTd86vYw==
   dependencies:
     "@babel/runtime" "^7.20.1"
     "@juggle/resize-observer" "^3.4.0"
