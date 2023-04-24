@@ -20,6 +20,9 @@ const footer = () => {
               <Link href="/downloads">Downloads</Link>
             </p>
             <p style={{ lineHeight: '24px' }}>
+              <Link href="/help">Help</Link>
+            </p>
+            <p style={{ lineHeight: '24px' }}>
               <a href="https://github.com/h3poteto/fedistar" target="_blank" rel="noopener noreferrer">
                 Source Code
               </a>
