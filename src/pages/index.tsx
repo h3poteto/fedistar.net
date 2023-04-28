@@ -24,7 +24,7 @@ export default function Home() {
               <h1 style={{ fontWeight: 300 }}>Fedistar</h1>
             </div>
             <div style={{ marginBottom: '4rem' }}>
-              <h3 style={{ fontWeight: 200 }}>Multi-column Mastodon and Pleroma client application for desktop</h3>
+              <h3 style={{ fontWeight: 200 }}>Multi-column Fediverse client application for desktop</h3>
             </div>
             <div
               style={{
@@ -49,8 +49,35 @@ export default function Home() {
               </Link>
             </div>
             <div style={{ paddingTop: '8rem' }}>
-              <FlexboxGrid justify="center">
-                <FlexboxGrid.Item>
+              <FlexboxGrid justify="center" align="middle">
+                <FlexboxGrid.Item colspan={8}>
+                  <h4>Supporting SNS</h4>
+                  <ul style={{ listStyle: 'none', lineHeight: '42px', fontSize: '1.2rem' }}>
+                    <li>
+                      <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Mastodon
+                    </li>
+                    <li>
+                      <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Pleroma
+                    </li>
+                    <li>
+                      <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Friendica
+                    </li>
+                  </ul>
+                </FlexboxGrid.Item>
+                <FlexboxGrid.Item colspan={8}>
+                  <div
+                    style={{
+                      position: 'relative',
+                      width: '480px',
+                      height: '380px'
+                    }}
+                  >
+                    <Image src="/detail.png" alt="Compose" fill style={{ objectFit: 'contain' }} />
+                  </div>
+                </FlexboxGrid.Item>
+              </FlexboxGrid>
+              <FlexboxGrid justify="center" align="middle">
+                <FlexboxGrid.Item colspan={10}>
                   <div
                     style={{
                       position: 'relative',
@@ -61,7 +88,7 @@ export default function Home() {
                     <Image src="/compose.png" alt="Compose" fill style={{ objectFit: 'contain' }} />
                   </div>
                 </FlexboxGrid.Item>
-                <FlexboxGrid.Item>
+                <FlexboxGrid.Item colspan={10}>
                   <ul style={{ listStyle: 'none', lineHeight: '42px', fontSize: '1.2rem' }}>
                     <li>
                       <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Multiple accounts management
