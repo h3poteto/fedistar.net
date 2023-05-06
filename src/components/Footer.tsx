@@ -43,7 +43,7 @@ const footer = () => {
               </a>
             </p>
             <p style={{ lineHeight: '24px' }}>
-              <a href="https://whalebird.social/desktop/contents/downloads" target="_blank" rel="noopener noreferrer">
+              <a href="https://whalebird.social/downloads" target="_blank" rel="noopener noreferrer">
                 Downloads
               </a>
             </p>
@@ -53,7 +53,7 @@ const footer = () => {
               </a>
             </p>
             <p style={{ lineHeight: '24px' }}>
-              <a href="https://whalebird.social/desktop/privacy_policy" target="_blank" rel="noopener noreferrer">
+              <a href="https://whalebird.social/privacy_policy" target="_blank" rel="noopener noreferrer">
                 Privacy Policy
               </a>
             </p>
