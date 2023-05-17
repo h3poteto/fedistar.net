@@ -112,6 +112,25 @@ export default function Home() {
                 </FlexboxGrid.Item>
               </FlexboxGrid>
             </div>
+            <div style={{ marginTop: '4vh' }}>
+              <h3>Sponsor</h3>
+              <p>Fedistar is free software. We don't monetize with advertisement. So your donation supports this project.</p>
+              <div style={{ marginTop: '2vh' }}>
+                <Button href="https://github.com/sponsors/h3poteto" appearance="primary">
+                  GitHub Sponsor
+                </Button>
+              </div>
+              <div style={{ marginTop: '1vh' }}>
+                <Button href="https://www.patreon.com/h3poteto" appearance="link" style={{ backgroundColor: '#FF424D' }}>
+                  <Image src="/patreon.png" alt="Patreon" width={108} height={22} />
+                </Button>
+              </div>
+              <div style={{ marginTop: '1vh' }}>
+                <Button href="https://liberapay.com/h3poteto" appearance="link" style={{ padding: 0 }}>
+                  <Image src="/liberapay.png" alt="LiberaPay" width={128} height={56} />
+                </Button>
+              </div>
+            </div>
           </Content>
           <Footer />
         </Container>
