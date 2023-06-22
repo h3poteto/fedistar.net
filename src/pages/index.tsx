@@ -113,7 +113,12 @@ export default function Home() {
               </FlexboxGrid>
             </div>
             <div style={{ marginTop: '4vh' }}>
-              <h3>Sponsor</h3>
+              <h3>Sponsors</h3>
+              <div style={{ marginBottom: '2em' }}>
+                <a href="https://github.com/throwException">
+                  <img src="https://github.com/throwException.png" width="60px" alt="Stefan Thöni" style={{ borderRadius: '50%' }} />
+                </a>
+              </div>
               <p>Fedistar is free software. We don't monetize with advertisement. So your donation supports this project.</p>
               <div style={{ marginTop: '2vh' }}>
                 <Button href="https://github.com/sponsors/h3poteto" appearance="primary">
