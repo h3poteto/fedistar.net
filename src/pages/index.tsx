@@ -62,6 +62,9 @@ export default function Home() {
                     <li>
                       <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Friendica
                     </li>
+                    <li>
+                      <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Akkoma (Unofficial)
+                    </li>
                   </ul>
                 </FlexboxGrid.Item>
                 <FlexboxGrid.Item colspan={8}>
