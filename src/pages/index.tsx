@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { Button, Container, Content, FlexboxGrid } from 'rsuite'
 import { Icon } from '@rsuite/icons'
-import { BsCloudDownload, BsCheck2Circle } from 'react-icons/bs'
+import { BsCloudDownload, BsCheck2Circle, BsCircle } from 'react-icons/bs'
 
 import Footer from '@/components/Footer'
 import styles from '@/styles/Home.module.css'
@@ -65,6 +65,9 @@ export default function Home() {
                     <li>
                       <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Akkoma (Unofficial)
                     </li>
+                    <li>
+                      <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Wildebeest (Unofficial)
+                    </li>
                   </ul>
                 </FlexboxGrid.Item>
                 <FlexboxGrid.Item colspan={8}>
@@ -110,6 +113,15 @@ export default function Home() {
                     </li>
                     <li>
                       <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Send reactions from another accounts
+                    </li>
+                    <li>
+                      <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Change column width
+                    </li>
+                    <li>
+                      <Icon as={BsCircle} style={{ marginRight: 12 }} /> Search accounts/tags/statuses
+                    </li>
+                    <li>
+                      <Icon as={BsCircle} style={{ marginRight: 12 }} /> Change color theme
                     </li>
                   </ul>
                 </FlexboxGrid.Item>
