@@ -307,10 +307,10 @@
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.197.tgz#e95c5ddcc814ec3e84c891910a01e0c8a378c54b"
   integrity sha512-BMVOiWs0uNxHVlHBgzTIqJYmj+PgCo4euloGF+5m4okL3rEYzM2EEv78mw8zWSMM57dM7kVIgJ2QDvwHSoCI5g==
 
-"@types/node@18.17.15":
-  version "18.17.15"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.15.tgz#31301a273b9ca7d568fe6d1c35ae52e0fb3f8d6a"
-  integrity sha512-2yrWpBk32tvV/JAd3HNHWuZn/VDN1P+72hWirHnvsvTGSqbANi+kSeuQR9yAHnbvaBvHDsoTdXV0Fe+iRtHLKA==
+"@types/node@18.17.16":
+  version "18.17.16"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.16.tgz#ee7b103d102787fb1530bfc6d4a1e15014f10938"
+  integrity sha512-e0zgs7qe1XH/X3KEPnldfkD07LH9O1B9T31U8qoO7lqGSjj3/IrBuvqMeJ1aYejXRK3KOphIUDw6pLIplEW17A==
 
 "@types/prop-types@*", "@types/prop-types@^15.7.5":
   version "15.7.5"
