@@ -121,7 +121,10 @@ export default function Home() {
                       <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Change color theme
                     </li>
                     <li>
-                      <Icon as={BsCircle} style={{ marginRight: 12 }} /> Search accounts/tags/statuses
+                      <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Search accounts/tags/statuses
+                    </li>
+                    <li>
+                      <Icon as={BsCircle} style={{ marginRight: 12 }} /> Slow mode
                     </li>
                   </ul>
                 </FlexboxGrid.Item>
