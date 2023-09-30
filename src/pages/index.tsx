@@ -63,6 +63,9 @@ export default function Home() {
                       <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Friendica
                     </li>
                     <li>
+                      <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Firefish
+                    </li>
+                    <li>
                       <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Akkoma (Unofficial)
                     </li>
                     <li>
