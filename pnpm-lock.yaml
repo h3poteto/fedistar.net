@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   '@octokit/rest':
-    specifier: ^20.0.0
+    specifier: ^20.0.2
     version: 20.0.2
   '@rsuite/icons':
     specifier: ^1.0.2
