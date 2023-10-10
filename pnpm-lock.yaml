@@ -9,7 +9,7 @@ dependencies:
     specifier: ^20.0.2
     version: 20.0.2
   '@rsuite/icons':
-    specifier: ^1.0.2
+    specifier: ^1.0.3
     version: 1.0.3(react-dom@18.2.0)(react@18.2.0)
   '@types/node':
     specifier: 18.18.4
