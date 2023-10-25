@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.0.3
     version: 1.0.3(react-dom@18.2.0)(react@18.2.0)
   '@types/node':
-    specifier: 18.18.6
-    version: 18.18.6
+    specifier: 18.18.7
+    version: 18.18.7
   '@types/react':
     specifier: 18.2.32
     version: 18.2.32
@@ -396,8 +396,10 @@ packages:
     resolution: {integrity: sha512-trNJ/vtMZYMLhfN45uLq4ShQSw0/S7xCTLLVM+WM1rmFpba/VS42jVUgaO3w/NOLiWR/09lnYk0yMaA/atdIsg==}
     dev: false
 
-  /@types/node@18.18.6:
-    resolution: {integrity: sha512-wf3Vz+jCmOQ2HV1YUJuCWdL64adYxumkrxtc+H1VUQlnQI04+5HtH+qZCOE21lBE7gIrt+CwX2Wv8Acrw5Ak6w==}
+  /@types/node@18.18.7:
+    resolution: {integrity: sha512-bw+lEsxis6eqJYW8Ql6+yTqkE6RuFtsQPSe5JxXbqYRFQEER5aJA9a5UH9igqDWm3X4iLHIKOHlnAXLM4mi7uQ==}
+    dependencies:
+      undici-types: 5.26.5
     dev: false
 
   /@types/prop-types@15.7.5:
@@ -2820,6 +2822,10 @@ packages:
       has-bigints: 1.0.2
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
+    dev: false
+
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: false
 
   /universal-user-agent@6.0.0:
