@@ -68,9 +68,6 @@ export default function Home() {
                     <li>
                       <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Akkoma (Unofficial)
                     </li>
-                    <li>
-                      <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Wildebeest (Unofficial)
-                    </li>
                   </ul>
                 </FlexboxGrid.Item>
                 <FlexboxGrid.Item colspan={8}>
