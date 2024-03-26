@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import { Container, Content } from 'rsuite'
+import { Container, Content, Button } from 'rsuite'
+import { BsClipboard } from 'react-icons/bs'
+import { Icon } from '@rsuite/icons'
 
 import Footer from '@/components/Footer'
 import styles from '@/styles/Home.module.css'
@@ -9,6 +11,10 @@ import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Help() {
+  const copyDebugCommand = (text: string) => {
+    navigator.clipboard.writeText(text)
+  }
+
   return (
     <>
       <Head>
@@ -40,6 +46,32 @@ export default function Help() {
                       Linux: <code>~/.local/share/fedistar/fedistar.log</code>
                     </li>
                   </ul>
+                </div>
+                <div id="debug_log">
+                  <h2>Enable debug log</h2>
+                  <p>
+                    The above log files record only info, warning, and error logs. If you want to enable debug logs, please set the{' '}
+                    <span style={{ backgroundColor: 'var(--rs-gray-700)', color: 'var(--rs-color-red)' }}>LOG_LEVEL</span> environment
+                    variable to <span style={{ backgroundColor: 'var(--rs-gray-700)', color: 'var(--rs-color-red)' }}>debug</span>. For
+                    example,
+                  </p>
+                  <div
+                    style={{
+                      backgroundColor: 'var(--rs-gray-700)',
+                      width: '320px',
+                      padding: '8px 0 8px 12px',
+                      borderRadius: '4px',
+                      margin: '8px 0',
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center'
+                    }}
+                  >
+                    <span>$ LOG_LEVEL=debug fedistar</span>
+                    <Button appearance="link" onClick={() => copyDebugCommand('LOG_LEVEL=debug fedistar')}>
+                      <Icon as={BsClipboard} />
+                    </Button>
+                  </div>
                 </div>
               </div>
             </div>
