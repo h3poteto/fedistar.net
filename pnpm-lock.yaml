@@ -42,8 +42,8 @@ dependencies:
     specifier: ^4.11.0
     version: 4.11.0(react@18.2.0)
   rsuite:
-    specifier: ^5.45.0
-    version: 5.45.0(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^5.58.1
+    version: 5.58.1(react-dom@18.2.0)(react@18.2.0)
   sharp:
     specifier: ^0.32.6
     version: 0.32.6
@@ -895,8 +895,8 @@ packages:
       esutils: 2.0.3
     dev: false
 
-  /dom-lib@3.1.6:
-    resolution: {integrity: sha512-xXEhStHDoAyfhnz8mqDwZ9rnqdqz/9BcrKd1UEw6BlA/l17emFb2dK7q8IX8ArU31pScSU9otEnL6wzvpoT5aw==}
+  /dom-lib@3.3.1:
+    resolution: {integrity: sha512-N2mpo8qQmB9wIMZJVjER+BSh4GJiZZ7S6EjnMtyETcXo90hpITUDXpUhqOcfXZ2ZefytuYYKTZMp3CGR2X+tDA==}
     dependencies:
       '@babel/runtime': 7.22.15
     dev: false
@@ -2368,8 +2368,8 @@ packages:
       glob: 7.2.3
     dev: false
 
-  /rsuite-table@5.17.0(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-QfWs2YDxNKL0EmN3+Lf+IsKoNcrYuri57Tpbii98MzKzQbbTCGcZmpE+WlpsnhZv15oFCk37Pi8K+v4sm7ImXg==}
+  /rsuite-table@5.18.2(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-IelmlHraExYgrkT13WWVENhCywWjBxPkpF2zpsqvMcwzaNAg9lHaVVyajcOKczqGB24NGRE6WgBF5n1RC6XAww==}
     peerDependencies:
       prop-types: ^15.7.2
       react: '>=16.8.0'
@@ -2379,7 +2379,7 @@ packages:
       '@juggle/resize-observer': 3.4.0
       '@rsuite/icons': 1.0.3(react-dom@18.2.0)(react@18.2.0)
       classnames: 2.3.2
-      dom-lib: 3.1.6
+      dom-lib: 3.3.1
       lodash: 4.17.21
       prop-types: 15.8.1
       react: 18.2.0
@@ -2387,8 +2387,8 @@ packages:
       react-is: 17.0.2
     dev: false
 
-  /rsuite@5.45.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-5k1CBhO/vaotCVaEodIW/Oec+ppFEVxUpOQp5mnReFJ8EPSPnRcbyHUAh9nh5Yj0bw4UFYJOLE27y7uqJctZOQ==}
+  /rsuite@5.58.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-qFuDgf6iRV0eIZhc0a416y3ntLJvK8jAZpv4Pw0g0KV7+qvqNYTMk3OJicnjbTFwJhXRW4+S9OHrwKK/hs/jeA==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
@@ -2402,14 +2402,14 @@ packages:
       '@types/react-window': 1.8.5
       classnames: 2.3.2
       date-fns: 2.30.0
-      dom-lib: 3.1.6
+      dom-lib: 3.3.1
       lodash: 4.17.21
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-use-set: 1.0.0(react@18.2.0)
       react-window: 1.8.9(react-dom@18.2.0)(react@18.2.0)
-      rsuite-table: 5.17.0(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0)
+      rsuite-table: 5.18.2(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0)
       schema-typed: 2.1.3
     dev: false
 
