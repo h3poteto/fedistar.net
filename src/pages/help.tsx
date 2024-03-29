@@ -67,8 +67,8 @@ export default function Help() {
                       alignItems: 'center'
                     }}
                   >
-                    <span>$ LOG_LEVEL=debug fedistar</span>
-                    <Button appearance="link" onClick={() => copyDebugCommand('LOG_LEVEL=debug fedistar')}>
+                    <span>$ FEDISTAR_LOG_LEVEL=debug fedistar</span>
+                    <Button appearance="link" onClick={() => copyDebugCommand('FEDISTAR_LOG_LEVEL=debug fedistar')}>
                       <Icon as={BsClipboard} />
                     </Button>
                   </div>
