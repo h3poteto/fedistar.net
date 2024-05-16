@@ -66,6 +66,9 @@ export default function Home() {
                       <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Firefish
                     </li>
                     <li>
+                      <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Gotosocial
+                    </li>
+                    <li>
                       <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Akkoma (Unofficial)
                     </li>
                   </ul>
