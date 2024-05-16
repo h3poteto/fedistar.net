@@ -42,8 +42,8 @@ dependencies:
     specifier: ^4.12.0
     version: 4.12.0(react@18.3.1)
   rsuite:
-    specifier: ^5.45.0
-    version: 5.45.0(react-dom@18.3.1)(react@18.3.1)
+    specifier: ^5.60.2
+    version: 5.60.2(react-dom@18.3.1)(react@18.3.1)
   sharp:
     specifier: ^0.32.6
     version: 0.32.6
@@ -944,8 +944,8 @@ packages:
       esutils: 2.0.3
     dev: false
 
-  /dom-lib@3.1.6:
-    resolution: {integrity: sha512-xXEhStHDoAyfhnz8mqDwZ9rnqdqz/9BcrKd1UEw6BlA/l17emFb2dK7q8IX8ArU31pScSU9otEnL6wzvpoT5aw==}
+  /dom-lib@3.3.1:
+    resolution: {integrity: sha512-N2mpo8qQmB9wIMZJVjER+BSh4GJiZZ7S6EjnMtyETcXo90hpITUDXpUhqOcfXZ2ZefytuYYKTZMp3CGR2X+tDA==}
     dependencies:
       '@babel/runtime': 7.22.15
     dev: false
@@ -1500,6 +1500,13 @@ packages:
     resolution: {integrity: sha512-YCcF28IqSay3fqpIu5y3Krg/utCBHBeoflkZyHj/QcqI2nrLPC3ZegS9CmIo+hJb8K7aiGsuUl7PwWVjNG2HQQ==}
     dev: false
 
+  /get-value@3.0.1:
+    resolution: {integrity: sha512-mKZj9JLQrwMBtj5wxi6MH8Z5eSKaERpAwjg43dPtlGI1ZVEgH/qC7T8/6R2OBSUA+zzHBZgICsVJaEIV2tKTDA==}
+    engines: {node: '>=6.0'}
+    dependencies:
+      isobject: 3.0.1
+    dev: false
+
   /github-from-package@0.0.0:
     resolution: {integrity: sha512-SyHy3T1v2NUXn29OsWdxmK6RwHD+vkj3v8en8AOBZ1wBQ/hCAQ5bAQTD02kW4W9tUp/3Qh6J8r9EvntiyCmOOw==}
     dev: false
@@ -1810,8 +1817,20 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
+  /is-plain-object@2.0.4:
+    resolution: {integrity: sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      isobject: 3.0.1
+    dev: false
+
   /is-plain-object@5.0.0:
     resolution: {integrity: sha512-VRSzKkbMm5jMDoKLbltAkFQ5Qr7VDiTFGXxYFXXowVj387GeGNOCsOH6Msy00SGZ3Fp84b1Naa1psqgcCIEP5Q==}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /is-primitive@3.0.1:
+    resolution: {integrity: sha512-GljRxhWvlCNRfZyORiH77FwdFwGcMO620o37EOYC0ORWdq+WYNVqW0w2Juzew4M+L81l6/QS3t5gkkihyRqv9w==}
     engines: {node: '>=0.10.0'}
     dev: false
 
@@ -1884,6 +1903,11 @@ packages:
 
   /isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
+    dev: false
+
+  /isobject@3.0.1:
+    resolution: {integrity: sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==}
+    engines: {node: '>=0.10.0'}
     dev: false
 
   /iterator.prototype@1.1.2:
@@ -2472,8 +2496,8 @@ packages:
       glob: 7.2.3
     dev: false
 
-  /rsuite-table@5.17.0(prop-types@15.8.1)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-QfWs2YDxNKL0EmN3+Lf+IsKoNcrYuri57Tpbii98MzKzQbbTCGcZmpE+WlpsnhZv15oFCk37Pi8K+v4sm7ImXg==}
+  /rsuite-table@5.18.2(prop-types@15.8.1)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-IelmlHraExYgrkT13WWVENhCywWjBxPkpF2zpsqvMcwzaNAg9lHaVVyajcOKczqGB24NGRE6WgBF5n1RC6XAww==}
     peerDependencies:
       prop-types: ^15.7.2
       react: '>=16.8.0'
@@ -2483,7 +2507,7 @@ packages:
       '@juggle/resize-observer': 3.4.0
       '@rsuite/icons': 1.0.3(react-dom@18.3.1)(react@18.3.1)
       classnames: 2.3.2
-      dom-lib: 3.1.6
+      dom-lib: 3.3.1
       lodash: 4.17.21
       prop-types: 15.8.1
       react: 18.3.1
@@ -2491,8 +2515,8 @@ packages:
       react-is: 17.0.2
     dev: false
 
-  /rsuite@5.45.0(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-5k1CBhO/vaotCVaEodIW/Oec+ppFEVxUpOQp5mnReFJ8EPSPnRcbyHUAh9nh5Yj0bw4UFYJOLE27y7uqJctZOQ==}
+  /rsuite@5.60.2(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-Yy+b8/xQIfYTnWT7WGNQpaGKxBVWe4TQXBVX940roX/N4tGHeS2uCwDi0/RKRb1eeaYx+zn8wLDV44WEMp4sMQ==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
@@ -2506,15 +2530,15 @@ packages:
       '@types/react-window': 1.8.5
       classnames: 2.3.2
       date-fns: 2.30.0
-      dom-lib: 3.1.6
+      dom-lib: 3.3.1
       lodash: 4.17.21
       prop-types: 15.8.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-use-set: 1.0.0(react@18.3.1)
       react-window: 1.8.9(react-dom@18.3.1)(react@18.3.1)
-      rsuite-table: 5.17.0(prop-types@15.8.1)(react-dom@18.3.1)(react@18.3.1)
-      schema-typed: 2.1.3
+      rsuite-table: 5.18.2(prop-types@15.8.1)(react-dom@18.3.1)(react@18.3.1)
+      schema-typed: 2.2.2
     dev: false
 
   /run-parallel@1.2.0:
@@ -2551,8 +2575,11 @@ packages:
       loose-envify: 1.4.0
     dev: false
 
-  /schema-typed@2.1.3:
-    resolution: {integrity: sha512-Nk0LLOq0L64HaQsXQGAZ8Z176tDE4jewsxyWe+6QvidNiC33DMaWFg+LaLWJ85uPPBtqBBJlCq9W4c1KEA88WA==}
+  /schema-typed@2.2.2:
+    resolution: {integrity: sha512-hRmqKr5V6UyhmZ0FixRVetgxvudRPjDynVZZRNq6t4EZHii7U33vmqd9uap3s4aqBcDg1JtubMNvCEmsZTpm3Q==}
+    dependencies:
+      get-value: 3.0.1
+      set-value: 4.1.0
     dev: false
 
   /semver@6.3.1:
@@ -2575,6 +2602,14 @@ packages:
       define-data-property: 1.1.0
       functions-have-names: 1.2.3
       has-property-descriptors: 1.0.0
+    dev: false
+
+  /set-value@4.1.0:
+    resolution: {integrity: sha512-zTEg4HL0RwVrqcWs3ztF+x1vkxfm0lP+MQQFPiMJTKVceBwEV0A569Ou8l9IYQG8jOZdMVI1hGsc0tmeD2o/Lw==}
+    engines: {node: '>=11.0'}
+    dependencies:
+      is-plain-object: 2.0.4
+      is-primitive: 3.0.1
     dev: false
 
   /sharp@0.32.6:
