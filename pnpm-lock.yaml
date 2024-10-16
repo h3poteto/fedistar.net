@@ -9,8 +9,8 @@ dependencies:
     specifier: ^20.1.1
     version: 20.1.1
   '@rsuite/icons':
-    specifier: ^1.0.3
-    version: 1.0.3(react-dom@18.3.1)(react@18.3.1)
+    specifier: ^1.2.0
+    version: 1.2.0(react-dom@18.3.1)(react@18.3.1)
   '@types/node':
     specifier: 20.12.12
     version: 20.12.12
@@ -389,17 +389,14 @@ packages:
     resolution: {integrity: sha512-rZTgpTH3H3HLczCA2rnkWfoMKm0ZXoRzsrkVujfP/FfslnKUMvO6w56pa8pCvhWGpNEPUsLS2ULnFGpTEcup/Q==}
     dev: false
 
-  /@rsuite/icons@1.0.3(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-qkjYFn1v5YV9eH57Q4AJ8CwsQYfILun2wdoxhQg5+xYxkIu6UyF8vTMmpOzLvcybTE7D8STm4dH7vhpyhPOC7g==}
+  /@rsuite/icons@1.2.0(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-/R4LhKYmORoA8TS6aNtDWQm65h3PSx3AGSvmn3nxPRUfXdWCf9P6Zntv+6q4w996SOglmfnCaCN4sx2c+JDI2w==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
-      '@babel/runtime': 7.22.15
       '@rsuite/icon-font': 4.0.0
       classnames: 2.3.2
-      insert-css: 2.0.0
-      lodash: 4.17.21
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     dev: false
@@ -1807,10 +1804,6 @@ packages:
     resolution: {integrity: sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==}
     dev: false
 
-  /insert-css@2.0.0:
-    resolution: {integrity: sha512-xGq5ISgcUP5cvGkS2MMFLtPDBtrtQPSFfC6gA6U8wHKqfjTIMZLZNxOItQnoSjdOzlXOLU/yD32RKC4SvjNbtA==}
-    dev: false
-
   /internal-slot@1.0.5:
     resolution: {integrity: sha512-Y+R5hJrzs52QCG2laLn4udYVnxsfny9CpOhNhUvk/SSSVyF6T27FzRbF0sroPidSu3X8oEAkOn2K804mjpt6UQ==}
     engines: {node: '>= 0.4'}
@@ -2637,7 +2630,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.22.15
       '@juggle/resize-observer': 3.4.0
-      '@rsuite/icons': 1.0.3(react-dom@18.3.1)(react@18.3.1)
+      '@rsuite/icons': 1.2.0(react-dom@18.3.1)(react@18.3.1)
       classnames: 2.3.2
       dom-lib: 3.3.1
       lodash: 4.17.21
@@ -2655,7 +2648,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.22.15
       '@juggle/resize-observer': 3.4.0
-      '@rsuite/icons': 1.0.3(react-dom@18.3.1)(react@18.3.1)
+      '@rsuite/icons': 1.2.0(react-dom@18.3.1)(react@18.3.1)
       '@types/chai': 4.3.6
       '@types/lodash': 4.14.198
       '@types/prop-types': 15.7.5
