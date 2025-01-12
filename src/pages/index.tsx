@@ -69,7 +69,7 @@ export default function Home() {
                       <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Gotosocial
                     </li>
                     <li>
-                      <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Akkoma (Unofficial)
+                      <Icon as={BsCheck2Circle} style={{ marginRight: 12 }} /> Pixelfed
                     </li>
                   </ul>
                 </FlexboxGrid.Item>
