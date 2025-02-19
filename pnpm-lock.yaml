@@ -39,8 +39,8 @@ dependencies:
     specifier: 18.3.1
     version: 18.3.1(react@18.3.1)
   react-icons:
-    specifier: ^4.12.0
-    version: 4.12.0(react@18.3.1)
+    specifier: ^5.5.0
+    version: 5.5.0(react@18.3.1)
   rsuite:
     specifier: ^5.60.2
     version: 5.60.2(react-dom@18.3.1)(react@18.3.1)
@@ -2514,8 +2514,8 @@ packages:
       scheduler: 0.23.2
     dev: false
 
-  /react-icons@4.12.0(react@18.3.1):
-    resolution: {integrity: sha512-IBaDuHiShdZqmfc/TwHu6+d6k2ltNCf3AszxNmjJc1KUfXdEeRJOKyNvLmAHaarhzGmTSVygNdyu8/opXv2gaw==}
+  /react-icons@5.5.0(react@18.3.1):
+    resolution: {integrity: sha512-MEFcXdkP3dLo8uumGI5xN3lDFNsRtrjbOEKDLD7yv76v4wpnEq2Lt2qeHaQOr34I/wPN3s3+N08WkQ+CW37Xiw==}
     peerDependencies:
       react: '*'
     dependencies:
