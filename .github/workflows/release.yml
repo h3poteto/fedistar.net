@@ -81,7 +81,7 @@ jobs:
           cd k8s-services
           git init
           git checkout -b update-fedistarnet-image-${{ github.sha }}
-          cd external-prd/services/fedistarnet
+          cd external/services/fedistarnet
           kustomize edit set image "nextjs=${{ env.ECR }}:sha-${{ github.sha }}"
           git add .
           git commit -m "Update docker image for fedistarnet to ${{ github.sha }}"
