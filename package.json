@@ -25,6 +25,6 @@
     "react-icons": "^5.5.0",
     "rsuite": "^5.83.3",
     "sharp": "^0.34.4",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   }
 }
