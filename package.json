@@ -11,7 +11,7 @@
     "typecheck": "tsc -p . --noEmit"
   },
   "dependencies": {
-    "@octokit/rest": "^22.0.0",
+    "@octokit/rest": "^22.0.1",
     "@rsuite/icons": "^1.3.2",
     "@types/node": "22.17.2",
     "@types/react": "18.3.26",
