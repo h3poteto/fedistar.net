@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-node@v4
         with:
-          node-version: 22.18.0
+          node-version: 22.21.1
       - uses: pnpm/action-setup@v4
         with:
           version: 10.14.0
@@ -36,7 +36,7 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-node@v4
         with:
-          node-version: 22.18.0
+          node-version: 22.21.1
       - uses: pnpm/action-setup@v4
         with:
           version: 10.14.0
