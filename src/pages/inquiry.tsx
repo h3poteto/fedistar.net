@@ -22,7 +22,7 @@ export default function Inquiry() {
   })
   const [loading, setLoading] = useState(false)
 
-  const formRef = useRef<any>()
+  const formRef = useRef<any>(null)
   const toast = useToaster()
 
   const model = Schema.Model({
