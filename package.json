@@ -13,7 +13,7 @@
   "dependencies": {
     "@octokit/rest": "^22.0.1",
     "@rsuite/icons": "^1.4.0",
-    "@types/node": "24.10.4",
+    "@types/node": "24.10.6",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
     "emailjs": "^4.0.3",
