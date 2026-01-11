@@ -42,7 +42,7 @@ export default function Home() {
                   color="violet"
                   appearance="primary"
                   startIcon={<Icon as={BsCloudDownload} />}
-                  style={{ fontSize: '2rem', lineHeight: '3.5rem', fontWeight: '300' }}
+                  style={{ fontSize: '2rem', lineHeight: '3.5rem', fontWeight: '300', padding: '2rem 2.5rem' }}
                 >
                   Download
                 </Button>
