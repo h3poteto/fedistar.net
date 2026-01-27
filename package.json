@@ -14,7 +14,7 @@
     "@octokit/rest": "^22.0.1",
     "@rsuite/icons": "^1.4.0",
     "@types/node": "24.10.7",
-    "@types/react": "19.2.9",
+    "@types/react": "19.2.10",
     "@types/react-dom": "19.2.3",
     "emailjs": "^5.0.0",
     "eslint": "9.39.2",
