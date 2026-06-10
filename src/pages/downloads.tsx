@@ -57,8 +57,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
           : null,
         deb: assetPerPlatforms.deb ? { url: assetPerPlatforms.deb.browser_download_url, name: assetPerPlatforms.deb.name } : null
       }
-    },
-    revalidate: 60
+    }
   }
 }
 

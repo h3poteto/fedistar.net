@@ -1,0 +1,13 @@
+name = "fedistar-net"
+main = "worker/index.ts"
+
+compatibility_date = "2026-06-10"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = "./out"
+binding = "ASSETS"
+not_found_handling = "404-page"
+
+[[send_email]]
+name = "EMAIL"
